@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Reset de estilos para asegurar consistencia */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Estilo para el contenedor principal */
+        .main_container {
+            width: 100%; /* Ocupar todo el ancho disponible */
+            max-width: 100%; /* Máximo ancho permitido */
+            height: 100vh; /* Ocupar todo el alto de la ventana */
+            display: flex;
+            flex-direction: column;
+            justify-content: center; /* Centrar verticalmente */
+            align-items: center; /* Centrar horizontalmente */
+            padding: 20px; /* Espacio interior */
+        }
+
+        /* Estilo para el párrafo de introducción */
+        #texto_intro {
+            max-width: 100%; /* Ancho máximo permitido */
+            text-align: justify; /* Justificar texto */
+        }
+
+        /* Estilo para la imagen del mapa */
+        .mapa_mesoamerica {
+            margin-top: 20px; /* Espacio superior */
+            max-width: 100%; /* Ancho máximo permitido */
+        }
+
+        /* Estilo para la imagen dentro del enlace */
+        .centrar-imagen {
+            display: block; /* Hacer que la imagen sea un bloque */
+            width: 100%; /* Ocupar todo el ancho del contenedor */
+            height: auto; /* Altura automática para mantener la proporción */
+            max-width: 100%; /* Máximo ancho permitido */
+        }
+    </style>
+</head>
+<body>
+    <section class="main_container">
+        <div class="parrafo_intro">
+            <p id="texto_intro">
+                El Proyecto Mesoamérica basa el trabajo coordinado de sus Prioridades
+                Regionales bajo las áreas socioambiental y económica, para facilitar
+                la concertación, el diálogo, la cooperación, la proyección
+                internacional e instrumentación de Bienes Públicos Regionales y así
+                contribuir al desarrollo integral, sostenible, inclusivo y resiliente
+                de nuestros países.
+    
+                <br />
+                Agenda Mesoamericana también alinea su implementación con los
+                Objetivos de Desarrollo Sostenible de la Agenda 2030 para contribuir a
+                la prosperidad de los habitantes de la región.
+            </p>
+        </div>    
+        <section class="mapa_mesoamerica">
+            <a href="http://proyectomesoamerica.org/index.php/ejes-de-trabajo" class="boton" target="_blank">
+                <img src="Ejes.png" alt="Mapa" class="centrar-imagen" />
+            </a>
+        </section>
+    </section>
+</body>
+</html>
